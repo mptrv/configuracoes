@@ -733,6 +733,15 @@
                </list>
             </hash>
             <hash>
+               <value n="action" v="delete-line"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="shift control [127]"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
                <value n="action" v="page-down"/>
                <value n="global" v="false"/>
                <list n="key-strokes">
