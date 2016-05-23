@@ -1706,15 +1706,6 @@
                </list>
             </hash>
             <hash>
-               <value n="action" v="Worksheet.Clear"/>
-               <value n="global" v="false"/>
-               <list n="key-strokes">
-                  <hash>
-                     <value n="key-1" v="control D"/>
-                  </hash>
-               </list>
-            </hash>
-            <hash>
                <value n="action" v="Worksheet.Commit"/>
                <value n="global" v="false"/>
                <list n="key-strokes">
@@ -1747,11 +1738,29 @@
                </list>
             </hash>
             <hash>
+               <value n="action" v="Results.SQL"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="control Q"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
                <value n="action" v="Ide.REFRESH_CMD_ID"/>
                <value n="global" v="false"/>
                <list n="key-strokes">
                   <hash>
                      <value n="key-1" v="control R"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
+               <value n="action" v="Results.DeleteGridSettings"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="shift control G"/>
                   </hash>
                </list>
             </hash>
@@ -2110,6 +2119,9 @@
          <value n="context" v="oracle/ide/ceditor/macrorecorder/accelerators.xml"/>
       </hash>
       <hash>
+         <value n="context" v="oracle/jdevimpl/vcs/svn/accelerators.xml"/>
+      </hash>
+      <hash>
          <value n="context" v="oracle/ideimpl/ceditor/tint/accelerators.xml"/>
       </hash>
       <hash>
@@ -2187,6 +2199,117 @@
       </hash>
       <hash>
          <value n="context" v="ToolManager"/>
+      </hash>
+      <hash>
+         <value n="context" v="oracle/ideimpl/patch/accelerators.xml"/>
+      </hash>
+      <hash>
+         <value n="context" v="Versioning-Properties"/>
+         <list n="mappings">
+            <hash>
+               <value n="action" v="oracle.jdeveloper.vcs.properties.PropertiesCommand"/>
+               <value n="global" v="true"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="shift control O"/>
+                  </hash>
+               </list>
+            </hash>
+         </list>
+      </hash>
+      <hash>
+         <value n="context" v="oracle/jdevimpl/vcs/accelerators.xml"/>
+         <list n="mappings">
+            <hash>
+               <value n="action" v="oracle.jdeveloper.vcs.properties.PropertiesCommand"/>
+               <value n="global" v="true"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="shift control O"/>
+                  </hash>
+               </list>
+            </hash>
+         </list>
+      </hash>
+      <hash>
+         <value n="context" v="Subversion"/>
+      </hash>
+      <hash>
+         <value n="context" v="oracle/dbtools/spatial/accelerators.xml"/>
+         <list n="mappings">
+            <hash>
+               <value n="action" v="spatial_zoom_in"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="control I"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
+               <value n="action" v="spatial_zoom_out"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="control O"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
+               <value n="action" v="spatial_new"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="control T"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
+               <value n="action" v="spatial_delete_query_layer"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="control D"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
+               <value n="action" v="spatial_zoom_fit"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="control F"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
+               <value n="action" v="spatial_zoom_marquee"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="control M"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
+               <value n="action" v="spatial_add_query_layer"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="control N"/>
+                  </hash>
+               </list>
+            </hash>
+            <hash>
+               <value n="action" v="spatial_refresh_query_layer"/>
+               <value n="global" v="false"/>
+               <list n="key-strokes">
+                  <hash>
+                     <value n="key-1" v="control R"/>
+                  </hash>
+               </list>
+            </hash>
+         </list>
       </hash>
    </list>
 </profile>
