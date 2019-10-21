@@ -1,0 +1,6 @@
+if [ "$2" == "" ]; then
+	echo comparar-diretorios DIR1 DIR2;
+	exit;
+fi;
+
+rsync -vnr --ignore-existing $1 $2

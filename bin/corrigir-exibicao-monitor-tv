@@ -1,0 +1,5 @@
+xrandr --output DVI-I-1 --mode 1680x1050
+sleep 5
+xrandr --output DVI-I-1 --mode 1920x1080
+sleep 3
+xgamma -gamma 0.6

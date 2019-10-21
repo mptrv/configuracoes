@@ -1,0 +1,3 @@
+echo -e "\nCopiando arquivos novos de Videos@HDE para CpVideo@HDE2...\n"
+cp -uvr /media/mpt/Videos@HDE/?.* /media/mpt/CpVideo@HDE2/
+echo -e "\nConcluído!\n"

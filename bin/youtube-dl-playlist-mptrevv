@@ -1,0 +1,44 @@
+ql=$1;
+qb=$2;
+dir_ydl="$HOME/."`basename $0`
+arq_qb=${dir_ydl}"/qtd_tot_videos_baixados"
+
+if ! [[ -d $dir_ydl ]]; then mkdir $dir_ydl; fi;
+
+if [[ -z "$qb" && -a $arq_qb ]]; then read qb < $arq_qb; fi;
+
+if [[ -z "$ql" || -z "$qb" ]]; then
+    echo;
+    echo    "   Sintaxe:"
+    echo    "   youtube-dl-playlist-mptrevv <qtd_tot_videos_na_lista> [<qtd_tot_videos_baixados>]";
+    echo;
+    echo    "   Serão baixados os vídeos do índice 1 ao da diferença fornecida pelos parâmetros.";
+    echo -n "   Se existir o arquivo ";
+    echo -n $arq_qb;
+    echo -e ",\n   o segundo parâmetro será opcional.";
+    echo;
+    exit;
+fi;
+
+
+i=$(($ql-$qb));
+
+if [[ (($i -le 0)) ]]; then
+	echo;
+    echo "  * A quantidade total de vídeos na lista É MENOR QUE OU IGUAL à total de baixados! *";
+	echo;
+	echo "    qtd_tot_videos_na_lista: " $ql
+	echo "    qtd_tot_videos_baixados: " $qb
+	echo;
+    exit;
+fi;
+
+youtube-dl --username mptrevv@gmail.com --playlist-reverse --yes-playlist --playlist-start 1 --playlist-end $i -i https://www.youtube.com/playlist?list=LLPSOjvpvlyFCYUpd4kQt6Ww
+
+echo $ql > $arq_qb
+echo $qb >> $arq_qb
+
+echo;
+echo Conteúdo de "$arq_qb":
+cat $arq_qb
+
