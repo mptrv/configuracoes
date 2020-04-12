@@ -1,0 +1,2 @@
+sudo fluidsynth --server --audio-driver=alsa -o audio.alsa.device=hw:0 /usr/share/sounds/sf2/FluidR3_GM.sf2
+# Ver: http://tedfelix.com/linux/linux-midi.html
