@@ -1,0 +1,1 @@
+youtube-dl --restrict-filename --cookies ~/Vídeos/YouTube\ -\ Cookie/youtube-cookies.txt --download-archive ~/Vídeos/YouTube\ -\ Cookie/downloads --playlist-reverse --yes-playlist --playlist-start 1 --playlist-end $1 -i 'https://www.youtube.com/playlist?list=LLPSOjvpvlyFCYUpd4kQt6Ww'
