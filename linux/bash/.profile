@@ -22,4 +22,4 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 # Variáveis de ambiente personalizadas.
-export CDPATH="/media/mpt/Videos@HDE"
+export CDPATH="/media/mpt/Videos@HDE:/home/mpt/Documentos/Projetos"
