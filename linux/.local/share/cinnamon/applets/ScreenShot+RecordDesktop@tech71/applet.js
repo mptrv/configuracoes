@@ -35,8 +35,8 @@ MyApplet.prototype = {
         }); 
 
         //Selected Area
-        this.menu.addAction(_("Selected Area"), function(event) {
-            Main.Util.spawnCommandLine("gnome-screenshot -a");
+        this.menu.addAction(_("Selected Area To Clipboard"), function(event) {
+            Main.Util.spawnCommandLine("gnome-screenshot -ac");
         });
     },
     defineScreenShotMenuItem: function () {
