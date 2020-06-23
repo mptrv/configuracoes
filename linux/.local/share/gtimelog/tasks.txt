@@ -1,0 +1,18 @@
+00-Entornos: Chegada. **
+00-Entornos: Almoço. **
+00-Entornos: Lache. **
+00-Entornos: Janta. **
+
+01-ETE102: E-mail. -- IMT
+01-ETE102: Preparativos. -- IMT
+01-ETE102: Aula. -- IMT
+
+02-SGAIMT: Reunião com Roseli. -- IMT
+02-SGAIMT: Curso. -- IMT UML
+
+03-IMT: E-mail -- IMT
+
+10-Pequeñitos: Aula
+
+90-Conf. Ferramenta: Time Log.
+90-Conf. Ferramenta: Alsa.
