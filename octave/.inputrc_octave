@@ -1,4 +1,9 @@
+#######################################################
 # Personalizações do readline para o octave.
+#######################################################
+# Ref.:
+# https://tiswww.case.edu/php/chet/readline/rltop.html
+#######################################################
 
 # Carrega definições do sistema.
 $include /etc/inputrc

@@ -1,6 +1,9 @@
 #################################################
 # Inicializações personalizadas para o Octave.
 #################################################
+# Ref.:
+# https://octave.org/doc/v4.4.0/index.html
+#################################################
 
 # Comportamento personalizado para o readline.
 readline_read_init_file('~/.inputrc_octave')
