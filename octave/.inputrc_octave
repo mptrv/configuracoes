@@ -1,0 +1,20 @@
+# Personalizações do readline para o octave.
+
+# Carrega definições do sistema.
+$include /etc/inputrc
+
+# Define ligações especiais.
+
+# Tempo limite para identificação de sequência (em ms).
+set keyseq-timeout 250
+
+# Facilitadores para o uso da última resposta ('ans').
+"++": "ans + "
+"--": "ans - "
+"**": "ans * "
+"//": "ans / "
+"^^": "ans ^ "
+"***": "ans ^ "
+"\C-e": "exp(ans)"
+"\C-g": "log(ans)"
+"\C-r": "sqrt(ans)"

@@ -2,13 +2,17 @@
 00-Entornos: Almoço. **
 00-Entornos: Lache. **
 00-Entornos: Janta. **
+00-Entornos: Levantar. **
 
 01-ETE102: E-mail. -- IMT
 01-ETE102: Preparativos. -- IMT
 01-ETE102: Aula. -- IMT
+01-ETE102: Projeto. -- IMT
+01-ETE102: Correção de Prova. -- IMT
 
 02-SGAIMT: Reunião com Roseli. -- IMT
 02-SGAIMT: Curso. -- IMT UML
+02-SGAIMT: Atividades diversas. -- IMT
 
 03-IMT: E-mail -- IMT
 

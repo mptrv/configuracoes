@@ -1,0 +1,12 @@
+#################################################
+# Inicializações personalizadas para o Octave.
+#################################################
+
+# Comportamento personalizado para o readline.
+readline_read_init_file('~/.inputrc_octave')
+
+# Prompt personalizado.
+PS1 ('\[\033[01;31m\]\s:\#> \[\033[0m\]')
+
+# Formatação de engenharia.
+format long eng
