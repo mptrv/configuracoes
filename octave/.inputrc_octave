@@ -22,4 +22,5 @@ set keyseq-timeout 250
 "***": "ans ^ "
 "\C-e": "exp(ans)"
 "\C-g": "log(ans)"
-"\C-r": "sqrt(ans)"
+#TODO: Definir o código correto para a tecla F2.
+#"\F-2": "sqrt(ans)"
