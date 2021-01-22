@@ -9,3 +9,5 @@ alias lsc='ls -1 | wc -l'
 # cds
 alias sped='cd ~/Documentos/Projetos/gti/sped/sped2020_repo'
 alias hde='cd /media/mpt/Videos@HDE'
+alias hdecp='cd /media/mpt/CpVideo@HDE2'
+alias youtube-dl='youtube-dl --restrict-filenames'

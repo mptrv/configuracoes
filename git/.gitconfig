@@ -1,0 +1,9 @@
+[user]
+	email = mptrv
+	name = mptrv
+[push]
+	default = simple
+[alias]
+	last = log -1 HEAD
+	st = status
+	ci = commit
