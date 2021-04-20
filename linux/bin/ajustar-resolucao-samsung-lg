@@ -1,2 +1,2 @@
-xrandr --output VGA-0 --mode "1280x1024" -r 75
-xrandr --output DVI-I-0 --mode "1280x1024" -r 75
+xrandr --output VGA-0 --mode "1280x1024" --pos 0x0 -r 75
+xrandr --output DVI-I-0 --mode "1280x1024" --pos 1280x0 -r 75

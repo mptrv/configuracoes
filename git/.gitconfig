@@ -7,3 +7,4 @@
 	last = log -1 HEAD
 	st = status
 	ci = commit
+	ignored = ls-files --other --ignored --exclude-standard

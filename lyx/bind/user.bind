@@ -6,5 +6,6 @@ Format 4
 
 \bind "M-c y" "font-typewriter"
 \bind "M-c i" "command-sequence language english; font-emph"
+\bind "M-c n" "index-insert"
 \bind "M-p u" "flex-insert URL"
 

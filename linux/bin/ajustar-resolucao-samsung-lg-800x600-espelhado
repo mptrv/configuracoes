@@ -1,0 +1,2 @@
+xrandr --output VGA-0 --mode "800x600" --pos 0x0 -r 75
+xrandr --output DVI-I-0 --mode "800x600" --pos 0x0 -r 75
