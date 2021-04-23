@@ -3,9 +3,15 @@
 
 Format 4
 
+\unbind "C-S-p" "font-typewriter"
 
 \bind "M-c y" "font-typewriter"
 \bind "M-c i" "command-sequence language english; font-emph"
 \bind "M-c n" "index-insert"
 \bind "M-p u" "flex-insert URL"
+\bind "M-i p" "phantom-insert"
+\bind "M-i s v b" "inset-insert vspace bigskip"
+\bind "M-i s v m" "inset-insert vspace medskip"
+\bind "M-i s v s" "inset-insert vspace smallskip"
+\bind "M-i s v v" "inset-insert vspace vfill"
 
