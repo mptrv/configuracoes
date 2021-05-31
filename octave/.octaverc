@@ -15,4 +15,4 @@ PS1 ('\[\033[01;31m\]\s:\#> \[\033[0m\]')
 format long eng
 
 # Carga de funções personalizadas.
-source ~/Documentos/Projetos/sisdig/3.1-bibliotecas/octave/personalizado.m
+source ~/Documentos/Projetos/sisdig/3.1-bibliotecas/octave/eletronica.m

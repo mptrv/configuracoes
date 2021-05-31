@@ -107,3 +107,8 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
+
+# Desabilita algumas teclas especiais usadas pelo "driver" do terminal.
+# Em especial, o Ctrl-S, que congela o terminal (Ctrl-Q o liberaria).
+#   Ref.: https://unix.stackexchange.com/questions/12107/how-to-unfreeze-after-accidentally-pressing-ctrl-s-in-a-terminal
+stty -ixon
